@@ -1,0 +1,39 @@
+{
+  "name": "gimme-time",
+  "version": "1.0.0",
+  "description": "Provides the current time at the specified timezone",
+  "main": "handler.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantica-io/gimme-time"
+  },
+  "author": "Lorenzo Micheli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantica-io/gimme-time/issues"
+  },
+  "homepage": "https://www.quantica.io",
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "ajv-keywords": "^3.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.25.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "serverless": "^1.32.0",
+    "serverless-offline": "^3.28.0",
+    "serverless-stack-output": "^0.2.3"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21"
+  }
+}

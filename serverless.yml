@@ -1,0 +1,19 @@
+service: gimme-time
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  gimmetime:
+    handler: handler.gimmetime
+    events:
+      - http:
+          path: /time
+          method: get
+          request:
+            parameters:
+              querystrings:
+                tz: true
+plugins:
+  - serverless-offline
