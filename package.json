@@ -28,9 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",
-    "serverless": "^1.32.0",
-    "serverless-offline": "^3.28.0",
-    "serverless-stack-output": "^0.2.3"
+    "serverless": "^1.32.0"
   },
   "dependencies": {
     "moment": "^2.22.2",
